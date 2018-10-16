@@ -99,7 +99,7 @@ RUN apt-get remove --purge -y software-properties-common && \
     rm -rf /usr/share/man/??_*
 
 # expose ports
-EXPOSE 80 443 3306
+EXPOSE 80 443
 
 # set container entrypoints
 ENTRYPOINT ["/bin/bash","-c"]
